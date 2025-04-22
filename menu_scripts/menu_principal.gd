@@ -1,7 +1,7 @@
 extends Control
 
 #préchargé l'ancienne partie
-@onready var newGame#= preload("")
+@onready var newGame = preload("../test.tscn")
 @onready var SaveLvl# = preload("")
 
 func _on_start_btn_button_down() -> void:
